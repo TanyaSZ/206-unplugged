@@ -87,6 +87,174 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*---------Base header and footer sytles-------------*/
+
+header,footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/*----------Header styles--------------*/
+
+header {}
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header .header-divider {}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*-----------Mobile Styles - Homepage --------------*/
+
+.hero-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+main .content-wrapper {
+}
+
+main h1 {}
+
+aside .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.form-description {}
+
+aside h3 {}
+
+aside p {}
+
+.form {}
+
+.features.content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.features.features-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.reviews.content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.reviews.content-wrapper h3 {}
+
+.reviews.content-wrapper p {}
+
+/*---------------Mobile Styles - About -------------*/
+
+.mission.content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.mission.mission-content {}
+
+.map figure {}
+
+.contact-section.content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+address .contact-content {}
+
+/*-----------------Mobile Styles - FAQ ------------*/
+
+.faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.faq.content-wrapper {display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.faq.faq-content {}
+
+
+
+/*-------------Footer styles------------------*/
+
+footer .content-wrapper {}
+
+footer .footer-content {}
+
+footer .social p {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .copyright {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------Footer---------------------------*/
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
