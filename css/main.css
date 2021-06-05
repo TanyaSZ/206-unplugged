@@ -515,6 +515,56 @@ footer .copyright {
 
 @media only screen and (min-width: 1200px) {
   /*Desktop styles here*/
+/*-----------Desktop General Header Styles--------------*/
+
+  .content-wrapper {
+    max-width: 960px;
+  }
+
+  /*-----------Desktop Homepage Styles--------------*/
+  /* Hero area */
+
+  .hero-area h1 {
+    width: 60%;
+  }
+
+  /* Aside */
+
+  aside .content-wrapper {
+    justify-content: center;
+  }
+
+  aside .content-wrapper .form-description, aside .content-wrapper .form {
+    width: 33%;
+  }
+
+  /*Features*/
+
+  .features h2 {
+    width: 90%;
+  }
+
+  .features article {
+    flex-basis: 33%;
+  }
+
+  /*Reviews*/
+
+  .reviews article div {
+    width: 40%;
+  }
+
+  /*-----------Desktop About Styles--------------*/
+
+  .mission h2, .contact-section .contact-wrapper h2 {
+    width: 95%;
+  }
+
+  /*-----------Desktop FAQ Styles--------------*/
+
+  .faq h2 {
+    width: 100%;
+  }
 }
 
 /* ==========================================================================
